@@ -1,0 +1,12 @@
+[
+  {
+    "id": "Bulbasaur",
+    "attack": 50,
+    "defense": 40
+  },
+  {
+    "id": "Squirtle",
+    "attack": 100,
+    "defense": 10
+  }
+]
