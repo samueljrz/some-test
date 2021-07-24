@@ -34,10 +34,10 @@ class MinHeap {
   peekMin() { return size != 0 && item[0] }
 
   poll() {
-    if(size == 0) return false
+    if(this.size == 0) return false
     let aux = this.heap[0]
-    this.heap[0] = this.heap[size - 1]
-    size--
+    this.heap[0] = this.heap[this.size - 1]
+    this.size--
     this.heapfyDown()
     return aux
   }
@@ -88,6 +88,7 @@ heap.add(5)
 heap.add(4)
 heap.add(2)
 heap.add(0)
+heap.add(20)
 
 
 console.log(heap.printHeap())
